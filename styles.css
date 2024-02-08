@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: #ffffff;
+    
+    color: #6C22A6;
+}
+#ropa{
+    border: 1px solid #6C22A6;
+}
+#ropa p{
+    border: 1px solid #6C22A6;
+    background-color: #6962AD;
+    color: #83C0C1;
+}
+
+li {
+    width: 50vw;
+    background-color: #83C0C1;
+
+}
+body {
+    
+    width: auto;
+    height: 97vh;
+
+}
+
+#contenedor{
+    display: flex;
+    height: 97vh;
+}
+
+header {
+    width: 37vw;
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 97vh;
+    background-color: #83C0C1;
+}
+#menu1{
+    width: 30vw;
+    height: auto;
+    margin: 2.5vw; 
+    font-size: 3vw;
+    height: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #83C0C1;
+    color: lightcoral;
+      
+    
+    
+}
+
+
+
+#fondo{
+    background-color: white;
+    width: 50vw;
+    margin-right: 200px;
+}
+#menu2{
+    width: 30vw;
+    height: auto; 
+    margin: 2.5vw;   
+    font-size: 3vw;
+    display: flex;
+    height: 40vw;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #83C0C1;
+    
+    
+}
+img{
+    width: 25vw;
+    max-height: 35vw;
+    display: flex;
+    margin: 2vw;    
+     
+    
+}
+
+
+#ropas{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 2vw;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 96vh;
+    width: 60vw;
+    
+    
+}
+button{
+    
+    font-size: 1.5vw;
+}
+
+#comp {
+    display: flex;
+    text-align: center;
+    font-size: 2vw;
+    flex-direction: column;
+}
+#subtotal {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-evenly;
+    border: 2px solid #83C0C1;
+    
+    
+}
+
+#compras img{
+    width: 5vw;
+    max-height: 35vw;
+    display: flex;
+    margin: 2vw;
+}
+
+#compras p{
+    margin-right: 1.5vw;
+    
+
+}
+
+#compras{
+    height: 96vh;
+    overflow-y: scroll;
+}
+#vaciar{
+    display: flex;
+    justify-content: space-between;
+
+}
+#carvac{
+    display: flex;
+    font-size: 10vw;
+
+}
